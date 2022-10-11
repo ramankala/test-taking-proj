@@ -4,6 +4,56 @@ html, body, #root {
     margin: 0;
 }
 .container{
+    height: 85%;
     display: flex;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.companyBox{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1F2937;
+}
+.companyBox > div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 10px;
+}
+.companyBox > div:nth-child(1) > div:nth-child(1){
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+.sign-up-btn{
+    border: 2px solid #3882F6;
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius: 8px;
+}
+.sign-up-btn:hover{
+    cursor: pointer;
+}
+.companyBox > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    background-color: #E5E7EB;
+}
+
+.testBox{
+    flex: 1;
+}
+.quoteBox{
+    flex: 1;
 }
