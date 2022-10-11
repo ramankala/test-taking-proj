@@ -26,7 +26,12 @@ const Home = () => {
                 </div>
             </div>
             <div className = 'quoteBox'>
-                stuff
+                <div>
+                    The greatest glory in living lies not in never falling, but in rising every time we fall.
+                </div>
+                <div>
+                    -Nelson Mandela
+                </div>
             </div>
         </div>
     )
