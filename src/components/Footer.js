@@ -1,8 +1,9 @@
+import '../styles/Footer.css';
 
 const Footer = () => {
     return (
-        <div>
-            testing
+        <div className='app-footer'>
+            Copyright © Raman Kala 2022
         </div>
     )
 }
