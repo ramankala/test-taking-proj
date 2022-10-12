@@ -1,4 +1,4 @@
-const qBank = [
+const qBank1 = [
     {
         id: 1,
         question: 'The net effect of photosynthesis, chemically, is reduction, leading to the formation of which products?',
@@ -91,4 +91,98 @@ const qBank = [
     }
 ]
 
-export default qBank;
+const qBank2 = () => [
+    {
+        id: 1,
+        question: 'The length of the tropical year is',
+        A: "equal to the length of the Earth's sidereal period.",
+        B: "equal to the length of the Earth's synodic period.",
+        C: 'the time interval from one vernal equinox to the next.',
+        D: 'twelve lunar months.',
+        correct: 'the time interval from one vernal equinox to the next.'
+    },
+    {
+        id: 2,
+        question: 'If the Moon did NOT rotate we would observe',
+        A: " the same as we now observe.",
+        B: "only the lunar back side.",
+        C: 'the lunar north polar region.',
+        D: ' both the front and back side of the Moon.',
+        correct: ' both the front and back side of the Moon.'
+    },
+    {
+        id: 3,
+        question: 'Aristotle',
+        A: "was the first great observational astronomer.",
+        B: "stated physical laws and then attempted to use them to explain how the universe works.",
+        C: 'discovered the first four elements in the periodic table of elements.',
+        D: 'taught Plato the basic laws of nature.',
+        correct: "stated physical laws and then attempted to use them to explain how the universe works."
+    },
+    {
+        id: 4,
+        question: 'Ptolemy',
+        A: " invented calculus and used it to predict the positions of the planets at any given time. ",
+        B: "equal to the length of the Earth's synodic period.",
+        C: 'the time interval from one vernal equinox to the next.',
+        D: 'twelve lunar months.',
+        correct: 'the time interval from one vernal equinox to the next.'
+    },
+    {
+        id: 11,
+        question: 'The length of the tropical year is',
+        A: "equal to the length of the Earth's sidereal period.",
+        B: "equal to the length of the Earth's synodic period.",
+        C: 'the time interval from one vernal equinox to the next.',
+        D: 'twelve lunar months.',
+        correct: 'the time interval from one vernal equinox to the next.'
+    },
+    {
+        id: 11,
+        question: 'The length of the tropical year is',
+        A: "equal to the length of the Earth's sidereal period.",
+        B: "equal to the length of the Earth's synodic period.",
+        C: 'the time interval from one vernal equinox to the next.',
+        D: 'twelve lunar months.',
+        correct: 'the time interval from one vernal equinox to the next.'
+    },
+    {
+        id: 11,
+        question: 'The length of the tropical year is',
+        A: "equal to the length of the Earth's sidereal period.",
+        B: "equal to the length of the Earth's synodic period.",
+        C: 'the time interval from one vernal equinox to the next.',
+        D: 'twelve lunar months.',
+        correct: 'the time interval from one vernal equinox to the next.'
+    },
+    {
+        id: 11,
+        question: 'The length of the tropical year is',
+        A: "equal to the length of the Earth's sidereal period.",
+        B: "equal to the length of the Earth's synodic period.",
+        C: 'the time interval from one vernal equinox to the next.',
+        D: 'twelve lunar months.',
+        correct: 'the time interval from one vernal equinox to the next.'
+    },
+    {
+        id: 11,
+        question: 'The length of the tropical year is',
+        A: "equal to the length of the Earth's sidereal period.",
+        B: "equal to the length of the Earth's synodic period.",
+        C: 'the time interval from one vernal equinox to the next.',
+        D: 'twelve lunar months.',
+        correct: 'the time interval from one vernal equinox to the next.'
+    },
+    {
+        id: 11,
+        question: 'The length of the tropical year is',
+        A: "equal to the length of the Earth's sidereal period.",
+        B: "equal to the length of the Earth's synodic period.",
+        C: 'the time interval from one vernal equinox to the next.',
+        D: 'twelve lunar months.',
+        correct: 'the time interval from one vernal equinox to the next.'
+    },
+
+]
+
+export default qBank1;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import qBank1 from './Data';
-import './styles/TestA.css';
+import qBank from './Data';
+import './styles/TestB.css';
 
 const TestA = () => {
 
@@ -15,7 +15,7 @@ const TestA = () => {
     }
 
     return (
-        <div className = 'containerA'>{qBank1.map(question => {
+        <div className = 'containerA'>{qBank.map(question => {
             if (question.id === id){
                 return (
                     <div key = {question.id} className = 'bioExam'>
