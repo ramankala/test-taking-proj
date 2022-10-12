@@ -1,20 +1,22 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
-import React, { useState } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from 'react';
 
-import Home from './Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Home from './Home';
+import TestA from './TestA';
 
 const RouteSwitch = () => {
 
     return (
-        <HashRouter>
+        <BrowserRouter>
             <Header />
             <Routes>
                 <Route path = "/" element = { <Home /> } />
+                <Route path = "/testA" element = { <TestA />} />
             </Routes>
             <Footer />
-        </HashRouter>
+        </BrowserRouter>
     )
 }
 
