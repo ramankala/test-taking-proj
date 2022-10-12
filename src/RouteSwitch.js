@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './Home';
 import TestA from './TestA';
+import TestB from './TestB';
 
 const RouteSwitch = () => {
 
@@ -14,6 +15,7 @@ const RouteSwitch = () => {
             <Routes>
                 <Route path = "/" element = { <Home /> } />
                 <Route path = "/testA" element = { <TestA />} />
+                <Route path = "/testB" element = { <TestB />} />
             </Routes>
             <Footer />
         </BrowserRouter>

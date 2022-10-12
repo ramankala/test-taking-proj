@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import qBank1 from './Data';
+import { qBank1 } from './Data';
 import './styles/TestA.css';
 
 const TestA = () => {

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './styles/Home.css';
 
 const Home = () => {
@@ -15,14 +17,18 @@ const Home = () => {
             <div className = 'testBox'>
                 <div>Zebra Tests</div>
                 <div className = 'testSection'>
-                    <div className = 'testA'>
-                        <div>Test A</div>
-                        <div> test description</div>
-                    </div>
-                    <div className = 'testB'>
-                        <div>Test B</div>
-                        <div>test description</div>
-                    </div>
+                    <Link to = '/testA'>
+                        <div className = 'testA'>
+                            <div>Test A</div>
+                            <div>Test your knowledge on Biology.</div>
+                        </div>
+                    </Link>
+                    <Link to = '/testB'>
+                        <div className = 'testB'>
+                            <div>Test B</div>
+                            <div>Test your knowledge on Astronomy.</div>
+                        </div>
+                    </Link>
                 </div>
             </div>
             <div className = 'quoteBox'>

@@ -79,6 +79,7 @@ html, body, #root {
     justify-content: center;
     align-items: center;
     gap: 30px;
+    color: black;
 }
 .testA > div:nth-child(1):hover, .testB > div:nth-child(1):hover{
     cursor: pointer;

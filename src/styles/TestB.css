@@ -1,0 +1,76 @@
+.containerB{
+    display: flex;
+    height: 88%;
+    width: auto; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+.astroExam{
+    display: flex;
+    height: 80%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    padding: 20px;
+    gap: 100px;
+    border-radius: 8px;
+}
+.astroExam>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 100%;
+    width: 100%;
+}
+.astroExam>div:nth-child(1)>div:nth-child(1){
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    width: 70%;
+    height: auto;
+}
+.examQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 18px;
+    gap: 60px;
+}
+.examQ > div {
+    border: 2px solid #E5E7EB;
+    padding: 20px;
+    border-radius: 8px;
+}
+.qA, .qB, .qC, .qD {
+    display: flex;
+    gap: 10px;
+}
+.qA:hover, .qB:hover, .qC:hover, .qD:hover {
+    background-color: rgb(11, 155, 11);
+    color: #F9FAF8;
+}
+input#qA:hover, input#qB:hover, input#qC:hover, input#qD:hover{
+    cursor: pointer;
+}
+
+.nextBtn{
+    display: flex;
+    align-self: flex-end;
+    border: 2px solid rgb(11, 155, 11);
+    margin-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(11, 155, 11);
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+}

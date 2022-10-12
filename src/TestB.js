@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import qBank from './Data';
+import { qBank2 } from './Data';
 import './styles/TestB.css';
 
-const TestA = () => {
+const TestB = () => {
 
     const [id, setId] = useState(1);
 
@@ -15,10 +15,10 @@ const TestA = () => {
     }
 
     return (
-        <div className = 'containerA'>{qBank.map(question => {
+        <div className = 'containerB'>{qBank2.map(question => {
             if (question.id === id){
                 return (
-                    <div key = {question.id} className = 'bioExam'>
+                    <div key = {question.id} className = 'astroExam'>
                         <div>
                             <div>{question.question}</div>
                             <div className = 'examQ'>
@@ -48,4 +48,4 @@ const TestA = () => {
     )
 }
 
-export default TestA;
+export default TestB;
