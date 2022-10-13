@@ -20,7 +20,7 @@ To access the app, click on the following link:
 
 https://ramankala.github.io/test-taking-proj/
 
-![test-taking-proj](src)
+![test-taking-proj](src/imgs/test-taking-proj.gif)
 
 
 # Getting Started with Create React App
