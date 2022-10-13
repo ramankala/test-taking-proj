@@ -14,7 +14,7 @@ const TestB = () => {
         if (id < 10){
             setId(id + 1);
         }
-        if (id === 10){
+        if (id === 9){
             setBtnText('Submit')
         }
     }

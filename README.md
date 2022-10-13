@@ -4,13 +4,23 @@
 
 Designed a test taking application which feeds the user two test banks from which they select answers through.  Developed this application to showcase my web development skills for KnowMeQ.
 
-## Skills Demonstrated
+## Challenges Faced
+
+Some challenges I faced in building this application was deciding whether I wanted it to be a single page application or set up routes to handle the different tests.  Ultimately I decided on using routes for more practice on using react router.  Another challenge I faced was determining how to cycle through the question bank array and stop any user interaction with the webpage after the 10th page.  My solution for this was to assign each question an ID, and cycle through the questions from the range of ID's I wanted.
+
+## Technologies Used
+
+- React (React Hooks)
+- JavaScript
+- HTML/CSS
 
 # Live Demo
 
 To access the app, click on the following link: 
 
 https://ramankala.github.io/test-taking-proj/
+
+![test-taking-proj](src)
 
 
 # Getting Started with Create React App
