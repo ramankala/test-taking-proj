@@ -1,3 +1,18 @@
+# Test Taking Project
+
+## Brief Introduction
+
+Designed a test taking application which feeds the user two test banks from which they select answers through.  Developed this application to showcase my web development skills for KnowMeQ.
+
+## Skills Demonstrated
+
+# Live Demo
+
+To access the app, click on the following link: 
+
+https://ramankala.github.io/test-taking-proj/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

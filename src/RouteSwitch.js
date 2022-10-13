@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import React from 'react';
 
 import Header from './components/Header';
@@ -10,7 +10,7 @@ import TestB from './TestB';
 const RouteSwitch = () => {
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Header />
             <Routes>
                 <Route path = "/" element = { <Home /> } />
@@ -18,7 +18,7 @@ const RouteSwitch = () => {
                 <Route path = "/testB" element = { <TestB />} />
             </Routes>
             <Footer />
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 

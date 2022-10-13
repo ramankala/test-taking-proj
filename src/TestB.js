@@ -7,10 +7,15 @@ const TestB = () => {
 
     const [id, setId] = useState(1);
 
+    const [btnText, setBtnText] = useState('Next');
+
 
     const handleCycle = () => {
         if (id < 10){
             setId(id + 1);
+        }
+        if (id === 10){
+            setBtnText('Submit')
         }
     }
 
@@ -40,7 +45,7 @@ const TestB = () => {
                                     </div>
                             </div>
                         </div>
-                        <div onClick={handleCycle} className='nextBtn'>Next</div>
+                        <div onClick={handleCycle} className='nextBtn'>{btnText}</div>
                     </div>
                 )
             }
